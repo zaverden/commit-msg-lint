@@ -2,5 +2,8 @@
   "name": "commit-msg-lint",
   "version": "1.0.0",
   "main": "index.js",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "husky": "^4.3.0"
+  }
 }
