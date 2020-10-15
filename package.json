@@ -5,5 +5,10 @@
   "license": "MIT",
   "devDependencies": {
     "husky": "^4.3.0"
+  },
+  "husky": {
+    "hooks": {
+      "commit-msg": "echo QQQ"
+    }
   }
 }
