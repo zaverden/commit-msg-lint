@@ -8,7 +8,7 @@
   },
   "husky": {
     "hooks": {
-      "commit-msg": "echo QQQ"
+      "commit-msg": "echo QQQ ${HUSKY_GIT_PARAMS}"
     }
   }
 }
