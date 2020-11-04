@@ -8,7 +8,7 @@
   },
   "husky": {
     "hooks": {
-      "commit-msg": "echo QQQ && cat ${HUSKY_GIT_PARAMS}"
+      "commit-msg": "node ./.scripts/commit-msg-lint.js JIRA HUSKY_GIT_PARAMS"
     }
   }
 }
